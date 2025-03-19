@@ -1,0 +1,2333 @@
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=64 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:10:25
+gem5 executing on DESKTOP-64ACR4L, pid 10630
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=64 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6739501500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770620     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       356659     99.19%     99.78% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=128 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:10:46
+gem5 executing on DESKTOP-64ACR4L, pid 10842
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=128 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6498951000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770624     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       337421     99.16%     99.78% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:11:09
+gem5 executing on DESKTOP-64ACR4L, pid 11013
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=256 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6488118000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770621     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       336672     99.15%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:11:30
+gem5 executing on DESKTOP-64ACR4L, pid 11129
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=512 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6504504000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770637     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339561     99.15%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:11:51
+gem5 executing on DESKTOP-64ACR4L, pid 11240
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=1024 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6501471000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770622     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339970     99.10%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:12:14
+gem5 executing on DESKTOP-64ACR4L, pid 11372
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=2048 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6500172500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770625     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339682     99.10%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:12:34
+gem5 executing on DESKTOP-64ACR4L, pid 11489
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=4096 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6497787000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770612     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339305     99.10%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:12:55
+gem5 executing on DESKTOP-64ACR4L, pid 11600
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=8192 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6496998500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770614     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339239     99.11%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:13:15
+gem5 executing on DESKTOP-64ACR4L, pid 11711
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=16384 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6497330500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770613     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339229     99.11%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:13:38
+gem5 executing on DESKTOP-64ACR4L, pid 11822
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=32768 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6497174500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770612     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339215     99.11%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:13:58
+gem5 executing on DESKTOP-64ACR4L, pid 11956
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=65536 --localCtrBits=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00277
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6498358000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770612     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339254     99.11%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=64 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:14:19
+gem5 executing on DESKTOP-64ACR4L, pid 12067
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=64 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6242833000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770641     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       284758     98.95%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=128 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:14:40
+gem5 executing on DESKTOP-64ACR4L, pid 12178
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=128 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 6255008000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770635     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       285500     98.98%     99.72% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:14:59
+gem5 executing on DESKTOP-64ACR4L, pid 12283
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=256 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6082697000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770616     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       275213     98.96%     99.72% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:15:19
+gem5 executing on DESKTOP-64ACR4L, pid 12394
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=512 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6078382500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770621     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       274396     98.95%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:15:40
+gem5 executing on DESKTOP-64ACR4L, pid 12574
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=1024 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6041484000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770626     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       268919     98.93%     99.70% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:15:59
+gem5 executing on DESKTOP-64ACR4L, pid 12810
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=2048 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6031811000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770623     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       266774     99.05%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:16:19
+gem5 executing on DESKTOP-64ACR4L, pid 13015
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=4096 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6028793500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770624     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       266313     99.04%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:16:40
+gem5 executing on DESKTOP-64ACR4L, pid 13151
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=8192 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6027632500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770611     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       266048     99.05%     99.72% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:16:59
+gem5 executing on DESKTOP-64ACR4L, pid 13256
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=16384 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6027536500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770625     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       266072     99.07%     99.73% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:17:19
+gem5 executing on DESKTOP-64ACR4L, pid 13370
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=32768 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6027495500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770623     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       266061     99.06%     99.73% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:17:41
+gem5 executing on DESKTOP-64ACR4L, pid 13481
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=65536 --localCtrBits=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00245
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6027139500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770623     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       266080     99.06%     99.73% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=64 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:18:01
+gem5 executing on DESKTOP-64ACR4L, pid 13613
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=64 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00309
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6921739500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770625     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       339767     99.08%     99.77% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=128 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:18:23
+gem5 executing on DESKTOP-64ACR4L, pid 13730
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=128 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6061525000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770628     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       266418     98.83%     99.70% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:18:45
+gem5 executing on DESKTOP-64ACR4L, pid 13836
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=256 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6040514000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770623     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       261191     98.80%     99.69% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:19:04
+gem5 executing on DESKTOP-64ACR4L, pid 13947
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=512 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5858975000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770630     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       248510     98.75%     99.68% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:19:23
+gem5 executing on DESKTOP-64ACR4L, pid 14065
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=1024 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00129
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5848773500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770620     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       247604     98.76%     99.69% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:19:44
+gem5 executing on DESKTOP-64ACR4L, pid 14215
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=2048 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5877260000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770617     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       249309     98.78%     99.69% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:20:02
+gem5 executing on DESKTOP-64ACR4L, pid 14324
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=4096 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5839356500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770628     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       245528     98.97%     99.70% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:20:21
+gem5 executing on DESKTOP-64ACR4L, pid 14454
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=8192 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5841833500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770628     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       245124     98.96%     99.70% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:20:42
+gem5 executing on DESKTOP-64ACR4L, pid 14638
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=16384 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5839325000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770625     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       245109     98.98%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:21:01
+gem5 executing on DESKTOP-64ACR4L, pid 14849
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=32768 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5840809500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770632     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       245200     98.98%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:21:19
+gem5 executing on DESKTOP-64ACR4L, pid 15054
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=65536 --localCtrBits=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5843583000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770621     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       245257     98.97%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=64 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:21:40
+gem5 executing on DESKTOP-64ACR4L, pid 15255
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=64 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00323
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00007
+Average Time:        0.00007
+Exiting @ tick 7452973500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770627     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       419428     99.26%     99.81% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=128 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:22:05
+gem5 executing on DESKTOP-64ACR4L, pid 15453
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=128 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00309
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 7120767000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770623     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       367602     99.16%     99.79% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:22:29
+gem5 executing on DESKTOP-64ACR4L, pid 15651
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=256 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6152424000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770602     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       278803     98.91%     99.73% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:22:48
+gem5 executing on DESKTOP-64ACR4L, pid 15866
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=512 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 6140769500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770605     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       272693     98.86%     99.72% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:23:10
+gem5 executing on DESKTOP-64ACR4L, pid 16077
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=1024 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00230
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5988324500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770610     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       262102     98.85%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:23:29
+gem5 executing on DESKTOP-64ACR4L, pid 16209
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=2048 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00229
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00009
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5994969500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770596     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       264336     98.85%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:23:47
+gem5 executing on DESKTOP-64ACR4L, pid 16314
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=4096 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00230
+Build Time:          0.00131
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00009
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00007
+Average Time:        0.00007
+Exiting @ tick 6009640500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770620     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       266465     98.86%     99.71% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:24:09
+gem5 executing on DESKTOP-64ACR4L, pid 16450
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=8192 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00230
+Build Time:          0.00131
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5985386500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770620     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       263782     99.05%     99.74% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:24:29
+gem5 executing on DESKTOP-64ACR4L, pid 16636
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=16384 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00230
+Build Time:          0.00131
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5992683500 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770622     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       265092     99.05%     99.74% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:24:48
+gem5 executing on DESKTOP-64ACR4L, pid 16841
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=32768 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00230
+Build Time:          0.00131
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5996138000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770615     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       265503     99.05%     99.74% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 19 2025 15:25:10
+gem5 executing on DESKTOP-64ACR4L, pid 16998
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --localPredictorSize=65536 --localCtrBits=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00230
+Build Time:          0.00131
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5998700000 because exiting with last active thread context
+system.cpu.branchPred.committed_0::DirectCond      1770611     90.62%     93.97% # Number of branches finally committed  (Count)
+system.cpu.branchPred.mispredicted_0::DirectCond       265846     99.05%     99.74% # Number of committed branches that were mispredicted. (Count)
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=64 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=128 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=64 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=128 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=64 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=128 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=128 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=256 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=512 AND COUNTER=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=1024 AND COUNTER=1024
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=1024
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=1024
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=1024
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=1024
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=1024
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=1024
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=2048 AND COUNTER=2048
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=2048
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=2048
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=2048
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=2048
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=2048
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=4096 AND COUNTER=4096
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=4096
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=4096
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=4096
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=4096
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=8192 AND COUNTER=8192
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=8192
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=8192
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=8192
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=16384 AND COUNTER=16384
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=16384
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=16384
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=32768 AND COUNTER=32768
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=32768
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288988 KBytes
+
+#################################################################
+RUNNING LOCAL PREDICTOR WITH SIZE=65536 AND COUNTER=65536
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/base/sat_counter.hh:81: fatal: fatal condition bits > 8*sizeof(T) occurred: Number of bits exceeds counter size
+Memory Usage: 288984 KBytes
+
