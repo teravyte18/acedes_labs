@@ -49,11 +49,11 @@ plt.figure(figsize=(10, 6))
 # Group by Counter and plot each series
 for counter, group in df.groupby("Counter"):
     group = group.sort_values("Local Predictor Size")
-    plt.plot(group["Local Predictor Size"], group["Miss Rate (%)"], marker='o', label=f"Counter = {counter}")
+    plt.plot(group["Local Predictor Size"], group["Miss Rate (%)"], marker='o', label=f"Control Bits = {counter}")
 
 plt.xlabel("Local Predictor Size")
 plt.ylabel("Miss Rate (%)")
-plt.title("Miss Rate by Local Predictor Size and Counter")
+plt.title("Miss Rate by Local Predictor Size and Control Bits")
 plt.xscale('log')  # Using log scale because sizes vary significantly
 plt.legend()
 plt.grid(True)
