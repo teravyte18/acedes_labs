@@ -8,11 +8,10 @@ LOGFILE=log.txt
 # CLEAR LOG FILE
 echo "">log.txt
 
-i=6
-j=4
-k=4
-l=4
-m=4
+i=10
+j=10
+k=10
+l=5
 
 # print header in both stdout and logfile
 echo "#################################################################"

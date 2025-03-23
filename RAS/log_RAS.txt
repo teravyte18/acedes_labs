@@ -1,0 +1,664 @@
+
+#################################################################
+RUNNING numEntries=1
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:40:26
+gem5 executing on DESKTOP-64ACR4L, pid 38906
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=1 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5848995500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               24973                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=2
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:40:43
+gem5 executing on DESKTOP-64ACR4L, pid 38975
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=2 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5824087000 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               29062                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=4
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:41:04
+gem5 executing on DESKTOP-64ACR4L, pid 39044
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=4 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00007
+Exiting @ tick 5813463000 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               31182                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=8
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:41:23
+gem5 executing on DESKTOP-64ACR4L, pid 39113
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=8 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00006
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5804756000 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32640                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=16
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:41:42
+gem5 executing on DESKTOP-64ACR4L, pid 39182
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=16 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5801662000 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32736                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=32
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:42:03
+gem5 executing on DESKTOP-64ACR4L, pid 39257
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=32 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=64
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:42:21
+gem5 executing on DESKTOP-64ACR4L, pid 39326
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=64 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=128
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:42:39
+gem5 executing on DESKTOP-64ACR4L, pid 39395
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=128 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=256
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:42:59
+gem5 executing on DESKTOP-64ACR4L, pid 39458
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=256 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=512
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:43:17
+gem5 executing on DESKTOP-64ACR4L, pid 39529
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=512 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=1024
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:43:38
+gem5 executing on DESKTOP-64ACR4L, pid 39598
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=1024 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=2048
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:43:56
+gem5 executing on DESKTOP-64ACR4L, pid 39667
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=2048 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=4096
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:44:14
+gem5 executing on DESKTOP-64ACR4L, pid 39736
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=4096 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=8192
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:44:35
+gem5 executing on DESKTOP-64ACR4L, pid 39805
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=8192 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=16384
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:44:53
+gem5 executing on DESKTOP-64ACR4L, pid 39874
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=16384 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=32768
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:45:11
+gem5 executing on DESKTOP-64ACR4L, pid 39939
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=32768 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
+#################################################################
+RUNNING numEntries=65536
+Global frequency set at 1000000000000 ticks per second
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (128 Mbytes)
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+system.remote_gdb: Listening for connections on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Mar 17 2025 10:51:38
+gem5 started Mar 23 2025 15:45:32
+gem5 executing on DESKTOP-64ACR4L, pid 40014
+command line: /home/teravyte/gem5/build/RISCV/gem5.opt ooo_core.py --numEntries=65536 /home/teravyte/gapbs/rv64_bfs
+
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/teravyte/gapbs/rv64_bfs'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+Generate Time:       0.00223
+Build Time:          0.00130
+Graph has 1024 nodes and 10496 undirected edges for degree: 10
+Trial Time:          0.00008
+Trial Time:          0.00007
+Trial Time:          0.00006
+Trial Time:          0.00005
+Trial Time:          0.00006
+Average Time:        0.00006
+Exiting @ tick 5798803500 because exiting with last active thread context
+system.cpu.branchPred.ras.correct               32743                       # Number of times the RAS is the provider and the prediction is correct (Count)
+system.cpu.branchPred.ras.used                  32743                       # Number of times the RAS is the provider (Count)
+
