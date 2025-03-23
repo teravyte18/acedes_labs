@@ -140,10 +140,10 @@
                     "tagBits": 16
                 },
                 "choiceCtrBits": 4,
-                "choicePredictorSize": 65536,
+                "choicePredictorSize": 1,
                 "eventq_index": 0,
                 "globalCtrBits": 4,
-                "globalPredictorSize": 65536,
+                "globalPredictorSize": 1,
                 "indirectBranchPred": {
                     "type": "SimpleIndirectPredictor",
                     "cxx_class": "gem5::branch_prediction::SimpleIndirectPredictor",
@@ -163,8 +163,8 @@
                 },
                 "instShiftAmt": 2,
                 "localCtrBits": 4,
-                "localHistoryTableSize": 65536,
-                "localPredictorSize": 65536,
+                "localHistoryTableSize": 1,
+                "localPredictorSize": 1,
                 "numThreads": 1,
                 "ras": {
                     "type": "ReturnAddrStack",
@@ -1393,9 +1393,11 @@
                     "name": "workload",
                     "path": "system.cpu.workload",
                     "cmd": [
-                        "/home/lab2/gapbs/rv64_bfs"
+                        "/home/teravyte/gapbs/rv64_bfs",
+                        "-g 10",
+                        "-n 5"
                     ],
-                    "cwd": "/home/lab2/acedes_labs",
+                    "cwd": "/mnt/c/Users/Tito/IST/ACEDes/acedes_labs",
                     "drivers": [],
                     "egid": 100,
                     "env": [],
